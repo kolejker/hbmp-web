@@ -4,7 +4,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 h1,
-p {
+p,
+h2 {
   color: white;
 }
 
