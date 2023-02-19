@@ -1,11 +1,11 @@
 body {
   margin: 0;
+
   font-family: "Montserrat", sans-serif;
 }
 h1,
 p {
   color: white;
-  width: 40%;
 }
 
 .navbar {
@@ -50,6 +50,10 @@ p {
 .main {
   margin-top: 3.1%;
   height: 1500px;
+}
+
+.headerdesc {
+  width: 40%;
 }
 
 .navbar-right {
@@ -145,4 +149,102 @@ p {
   height: 30px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.tba {
+  min-height: 380px;
+  position: relative;
+}
+
+.searchcard {
+  text-align: center;
+  min-height: 380px;
+  background-color: #313131;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whusnew {
+  min-height: 380px;
+  background-color: #575757;
+  position: relative;
+}
+
+footer {
+  background-color: #0057c9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.changelog-container {
+  height: 230px;
+  width: 500%;
+  overflow-y: scroll;
+}
+
+.changelog-container ul {
+  width: 100%;
+  color: white;
+  overflow: auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(46, 46, 46);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111111;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #002c66;
+}
+
+.container h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.pagebut {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  position: absolute;
+  right: 30%;
+}
+
+.pagebut a {
+  float: right;
+  border-radius: 60px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.pagebut a:hover {
+  background-color: #0057c9;
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
 }
