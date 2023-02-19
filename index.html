@@ -55,19 +55,45 @@
   <h3>Feb 17, 2023</h3>
   <li>+ Added (Half Working) visualizer</li>
     <li>+ Updated the style</li>
+                          <h3>Feb 15, 2023</h3>
+  <li>+ Started working on other types of file input</li>
+                      <h3>Feb 13, 2023</h3>
+  <li>+ Moved playlist display to the navbar</li>
+
+                      <h3>Feb 11, 2023</h3>
+                          <li>+ Navbars Added</li>
+
+                  <h3>Feb 10, 2023</h3>
+  <li>+ Added custom buttons and seek bar instead of the default browser one</li>
+    <li>+ Simple CSS added</li>
+
+              <h3>Feb 7, 2023</h3>
+  <li>+ Added option for next song to automatically play</li>
+
+          <h3>Feb 6, 2023</h3>
+  <li>+ Playlist System Added</li>
+
+      <h3>Feb 4, 2023</h3>
+  <li>+ Project started</li>
+    <li>+ Simple import and play system</li>
 </ul>  
             </div>
         </div>
       </div>
       <div class="features">
         <div class="container">
-          <h1>Features</h1>
-          <p>lol</p>
-        </div>
-      </div>
-            <div class="tba">
-        <div class="container">
-          <h1>To be added</h1>
+          
+<h1>Features</h1>
+<div class="features">
+<ul>
+  <h3>Made by me</h3>
+    <li>Expect very nice quality)</li>
+  <h3>Multiple audio sources</h3>
+  <li>Mostly made for local files but I will add other sources for audio (Youtube, URL, Soundcloud, etc...)</li>
+    <h3>Highly Customizable</h3>
+  <li>Make your own css file and change the player how you like it, documentation is available.</li>
+</ul>  
+</div>
         </div>
       </div>
             <div class="searchcard">
@@ -81,12 +107,23 @@
  <footer>
       <p>Copyright &copy; Eban</p>
       <nav>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Click for free bananas</a>
-        <a href="#">suck dicker</a>
       </nav>
     </footer>
+    <script>
+      function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+</script>
   </body>
 </html>

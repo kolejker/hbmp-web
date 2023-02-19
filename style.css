@@ -111,8 +111,10 @@ p {
 
 .features {
   min-height: 380px;
-  background-color: #8a8a8a;
+  background-color: #272727;
+  color: rgb(255, 255, 255);
   position: relative;
+  list-style-type: none;
 }
 
 .profile-icon {
@@ -159,7 +161,10 @@ p {
 .searchcard {
   text-align: center;
   min-height: 380px;
-  background-color: #313131;
+  background-image: url("img/background.png");
+  background-color: #292929;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: flex;
   justify-content: center;
@@ -187,7 +192,7 @@ footer nav a {
 
 .changelog-container {
   height: 230px;
-  width: 500%;
+  width: 310%;
   overflow-y: scroll;
 }
 
@@ -247,4 +252,8 @@ footer nav a {
   background-color: #0057c9;
   color: rgb(255, 255, 255);
   transform: scale(1.05);
+}
+
+* {
+  box-sizing: border-box;
 }
