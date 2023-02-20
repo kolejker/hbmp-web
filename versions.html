@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HBMP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#logo">HBMP2</a>
+      </div>
+      <div class="navbar-right">
+        <a href="search.html">
+          <img src="img/search.png" class="search" />
+        </a>
+        <img src="img/yes.png" class="profile-icon" />
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="v2img">
+        <div class="container">
+          <h1>HBMP2 (Latest)</h1>
+          <div class="headerdesc">
+            <p>
+              The latest version of my music player, it is still in early
+              development, please report any errors and any help would be
+              apreciated!
+            </p>
+          </div>
+        </div>
+        <div class="downbut">
+          <a href="#down">Download Client</a>
+          <a href="https://kolikiscool.github.io/hbmp2/v3.html">Use online</a>
+        </div>
+      </div>
+      <div class="oldimg">
+        <div class="container">
+          <h1>HBMP</h1>
+          <div class="headerdesc">
+            <p>
+              Oldest version, I don't know why you would use it, it can only
+              play 1 song and it is broken.
+            </p>
+          </div>
+        </div>
+        <div class="downbut">
+          <a href="https://kolikiscool.github.io/hbmp/index.html">Use online</a>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="container">
+          <h1>More soon to come</h1>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; Eban</p>
+      <nav></nav>
+    </footer>
+    <script>
+      function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>
