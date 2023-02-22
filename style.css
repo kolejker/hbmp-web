@@ -277,3 +277,7 @@ footer nav a {
   background-size: cover;
   position: relative;
 }
+
+#bold {
+  font-weight: bolder;
+}
